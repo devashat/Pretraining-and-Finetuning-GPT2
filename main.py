@@ -108,17 +108,6 @@ def pretraining():
 
     trainer.save_model(new_model)
 
-    # HfFolder.save_token('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')
-    # api = HfApi()
-
-
-    # try:
-    #     model.push_to_hub(new_model, use_temp_dir=False)
-    #     tokenizer.push_to_hub(new_model, use_temp_dir=False)
-    #     print("Model and tokenizer successfully pushed to the Hugging Face Hub.")
-    # except Exception as e:
-    #     print(f"An error occurred: {e}")
-
 
 
 # Helpers for finetuning
